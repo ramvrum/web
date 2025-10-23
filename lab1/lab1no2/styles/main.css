@@ -1,0 +1,46 @@
+table{
+	border-collapse: collapse;
+	table-layout: fixed;
+  width: 100%;
+}
+table, td, th{
+	border: 2px solid gray;
+}
+th, td {
+  word-wrap: break-word; 
+	text-align: center;
+  font-size: 15px; 
+	height: 25px;
+}
+th{
+	background-color:#EBEBEB;
+}
+tbody tr:nth-child(odd) td{
+	background-color:#F5F5F5;
+}
+thead th:first-child{
+	background-color:#F5F5F5;
+}
+.titles{
+width: 13%;
+}
+.temp, .distance{
+	width: 10%;
+}
+.length{
+	width: 8%;
+}
+.notes{
+width: 19%;
+}
+.highlight{
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}
+tbody tr:last-child .highlight{
+	border-bottom: 3px solid black;
+}
+thead tr:first-child .highlight{
+	border-top: 3px solid black;
+}
+
